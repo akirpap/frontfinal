@@ -20,6 +20,7 @@ export class AppComponent implements OnInit{
     text: null
   }
 
+  textodoc=false;
   tweets = [];
   texlibre
   documento
@@ -68,6 +69,8 @@ export class AppComponent implements OnInit{
       console.log(todo)
       this.documento= todo;
     })
+
+    this.textodoc=true;
   }
 
   getAnali(){
@@ -84,6 +87,7 @@ export class AppComponent implements OnInit{
   }
 
 }
+
 
 
 
