@@ -18,7 +18,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Baloo 2', cursive;
+  font-size:40px;
 }
 
 /*--------------------------------------------------------------
@@ -58,7 +59,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
 }
 
-
+.card-body{
+  width: 80px center center ;
+  height: 80px;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -97,6 +101,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #FFFFFF;
 }
 
+.titulo {
+  text-align: center;
+  color: #50985A;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 600;
+}
+
 
 
 section {
@@ -110,8 +121,9 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
-  color: #1B3FA9;
+  color: #50985A;
+  font-family: 'Lemonada';
+  font-weight: 600;
 }
 
 .section-title h2 {
@@ -145,16 +157,6 @@ section {
 }
 
 
-.documentoo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 16px;
-  border-radius: 8px;
-  height: 300px;
-  width: 300px;
-
-}
 
 /*--------------------------------------------------------------
 # Footer
@@ -178,6 +180,30 @@ section {
 }
 
 
+.Twitter{
+  font-family: 'Spartan', sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+}
 
+.Textlib{
+  font-family: 'Spartan', sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
 
+}
 
+.documentos{
+  font-family: 'Spartan', sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.cajita{
+  text-align: center;
+  width: 400px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+background-color: #e9e2d2;
+}
