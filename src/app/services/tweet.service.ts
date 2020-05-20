@@ -7,7 +7,7 @@ import { Tweet } from '../interfaces/tweet';
 })
 export class TweetService {
 
-  private api = 'http://localhost:3000/api/tweets'
+  private api = 'http://184.172.247.135:31478'
 
   constructor(
     private http: HttpClient
